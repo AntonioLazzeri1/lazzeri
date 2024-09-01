@@ -1,0 +1,175 @@
+body {
+  
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f1e4e4;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    margin-left: 160vh;
+
+  }
+  
+  .button {
+    padding: 15px 20px;
+    margin: 5px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #2980b9;
+  }
+
+.bovenkant-container{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ 
+
+header {
+  background-color: rgb(19, 248, 87);
+}
+
+
+.socials{
+  padding-right: 20px;
+  flex-direction: row;
+}
+
+h1{
+  padding-left: 20px;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
+
+
+.beschrijving-container {
+  width: 300px; /* Breedte van de container aanpassen zoals gewenst */
+  border: 1px solid black; /* Rand om de container */
+  padding: 20px; /* Ruimte tussen de tekst en de rand van de container */
+  text-align: justify; /* Uitlijning van de tekst */
+  margin-left: auto;
+margin-right: auto;
+margin-bottom: 100px;
+}
+
+  h2{
+    margin-top: 100px;
+    margin-left: 42%;
+    
+  }
+
+  popular-orders-container {
+    background-color: #ffffff; /* Achtergrondkleur voor het vakje */
+    border: 1px solid #dddddd; /* Rand rond het vakje */
+    padding: 20px;
+    border-radius: 10px; /* Afgeronde hoeken voor het vakje */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); /* Schaduw voor het vakje */
+  }
+  
+  .popular-orders {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .order {
+    margin: 10px;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #dddddd; /* Rand rond elke bestelling */
+    border-radius: 5px; /* Afgeronde hoeken voor elke bestelling */
+    background-color: #ffffff; /* Achtergrondkleur voor elke bestelling */
+  }
+  
+  .order img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; /* Afgeronde hoeken voor de afbeeldingen */
+  }
+  
+  .order h3, .order p {
+    margin: 5px 0;
+  }
+  
+  .order button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px; /* Afgeronde hoeken voor de knop */
+  }
+
+
+  footer {
+    background-color: rgb(19, 248, 87); /* Groene achtergrondkleur */
+    padding: 20px;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-around; /* Verdeel de ruimte tussen de items */
+  }
+  
+  .contact-details {
+    color: white; /* Witte tekstkleur */
+  }
+  
+  .contact-details p {
+    margin: 5px 0;
+  }
+
+  .authentic-block {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+  }
+  
+  .block-title {
+    color: #333;
+  }
+  
+  .block-content {
+    margin-bottom: 20px;
+  }
+  
+  .block-rating {
+    color: #ffc107;
+    margin-bottom: 10px;
+  }
+  
+  .block-authentic {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+  }
+  
+  .block-authentic p {
+    color: #666;
+  }
